@@ -40,7 +40,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
 	@IBAction func runVideoTap(sender: UIButton) {
 		// Path local do arquivo de video
-//		let videoPath:NSURL = NSURL(string: NSBundle.mainBundle().pathForResource("big-buck-bunny-clip", ofType: "m4v")!)!
+//		 let videoPath = NSBundle.mainBundle().URLForResource("big-buck-bunny-clip", withExtension: "m4v")
 		
 		// Path remoto do arquivo de video
 		let videoPath:NSURL = NSURL(string: "https://dl.dropboxusercontent.com/u/10059850/Movie.m4v")!
